@@ -4,7 +4,7 @@
 ##iomer - HTML
 
 +DOCTYPE
-+HTML
-+HEAD
+-HTML
+*HEAD
 +Title
-+BODY
+-BODY
