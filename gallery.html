@@ -1,0 +1,33 @@
+<script>
+function light(sw) {
+    var pic;
+    if (sw == 1) {
+        pic = "01.jpg"
+    }
+if (sw == 2) {
+        pic = "02.jpg"
+    }  
+if (sw == 3) {
+        pic = "03.jpg"
+    } 
+if (sw == 4) {
+        pic = "04.jpg"
+    } 
+
+if (sw == 5) {
+        pic = "05.jpg"
+    } 
+
+    document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="01.jpg" width="730" height="450">
+
+<p align="center">
+<button type="button" onclick="light(1)">1</button>
+<button type="button" onclick="light(2)">2</button>
+<button type="button" onclick="light(3)">3</button>
+<button type="button" onclick="light(4)">4</button>
+<button type="button" onclick="light(5)">5</button>
+</p>
